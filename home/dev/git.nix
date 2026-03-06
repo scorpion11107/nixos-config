@@ -3,7 +3,9 @@
 {
   programs.git = {
     enable = true;
-    userName = "Soleyann PUJOL--MOURET";
-    userEmail = "soleyannp@gmail.com";
+    settings.user = {
+      name = "Soleyann PUJOL--MOURET";
+      email = "soleyannp@gmail.com";
+    };
   };
 }
