@@ -5,5 +5,5 @@
     enable = true;
     userName = "Soleyann PUJOL--MOURET";
     userEmail = "soleyannp@gmail.com";
-  }
+  };
 }
