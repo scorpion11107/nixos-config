@@ -15,6 +15,7 @@
 
     # Development
     ./dev/vscode.nix
+    ./dev/git.nix
 
     # Applications
     ./apps/firefox.nix
@@ -77,6 +78,9 @@
     [General]
     theme=KvArcDark
   '';
+
+  # -- SSH agent service --
+  services.ssh-agent.enable = true;
 
   # ── Extra user packages ───────────────────────────────────
   home.packages = with pkgs; [
